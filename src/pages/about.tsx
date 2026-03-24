@@ -34,17 +34,17 @@ const About: React.FC = () => {
       <div className="bg-[#f8f7f4] min-h-screen">
         {/* Hero header */}
         <div className="bg-white border-b border-slate-100">
-          <div className="max-w-4xl mx-auto px-6 py-20 text-center">
+          <div className="max-w-4xl mx-auto px-6 py-12 sm:py-20 text-center">
             <p className="section-label mb-4">About</p>
-            <h1 className="text-5xl font-extrabold tracking-tight text-slate-900 mb-3">Michael Dean Soucek</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-3 break-words">Michael Dean Soucek</h1>
             <div className="accent-bar mx-auto mb-5" />
-            <p className="text-slate-500 text-lg max-w-2xl mx-auto leading-relaxed">
+            <p className="text-slate-500 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
               Front-end engineer with three years of enterprise experience at CVS Health. I build precise, accessible, and maintainable systems — clarity and structure over decoration.
             </p>
           </div>
         </div>
 
-        <div className="max-w-4xl mx-auto px-6 py-16 space-y-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16 space-y-12 sm:space-y-16">
 
           {/* Stats strip */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-[#e8e6e1] rounded-lg overflow-hidden border border-[#e8e6e1]">
@@ -91,14 +91,14 @@ const About: React.FC = () => {
           {/* Education */}
           <div>
             <p className="text-xs uppercase tracking-[0.18em] text-gray-400 font-semibold mb-6">Education</p>
-            <div className="bg-white border border-gray-200 rounded-lg px-8 py-7">
+            <div className="bg-white border border-gray-200 rounded-lg px-6 sm:px-8 py-7">
               <div className="flex flex-wrap items-start justify-between gap-4">
-                <div>
+                <div className="min-w-0">
                   <h3 className="text-lg font-bold text-gray-900">Arizona State University</h3>
                   <p className="text-gray-600 mt-0.5">{isEurope ? 'B.Sc.' : 'B.S.'} Graphic Information Technology</p>
                   <p className="text-sm text-gray-500 mt-1">Aug 2017 – Dec 2022</p>
                 </div>
-                <div className="flex flex-col items-end gap-1">
+                <div className="flex flex-col items-start sm:items-end gap-1 shrink-0">
                   <span className="text-xs font-semibold bg-amber-50 border border-amber-200 text-amber-700 px-2.5 py-0.5 rounded">Summa Cum Laude</span>
                   <span className="text-sm text-gray-500">GPA 4.0 / 4.0</span>
                 </div>
