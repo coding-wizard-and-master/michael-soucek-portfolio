@@ -42,18 +42,18 @@ const HeroSection: React.FC = () => {
       />
 
       {/* Content */}
-      <div className="relative text-center px-6 max-w-3xl mx-auto">
+      <div className="relative text-center px-5 sm:px-6 max-w-3xl mx-auto w-full">
 
         {/* Eyebrow */}
         <p className="section-label mb-8 tracking-[0.22em]">Front-End Software Engineer</p>
 
         {/* Name */}
-        <h1 className="text-6xl md:text-8xl font-extrabold tracking-tight text-slate-900 leading-none mb-8">
+        <h1 className="text-4xl sm:text-6xl md:text-8xl font-extrabold tracking-tight text-slate-900 leading-none mb-8 w-full overflow-hidden">
           <Typewriter
             text="Michael Soucek"
             segments={[
               { text: 'Michael', duration: 800, className: 'inline' },
-              { text: '\u00a0Soucek', duration: 800, className: 'text-blue-600 inline' },
+              { text: ' Soucek', duration: 800, className: 'text-blue-600 inline' },
             ]}
             interSegmentDelay={80}
             startDelay={200}
