@@ -1,0 +1,13 @@
+Sass logo canonical source (Wikimedia Commons):
+https://commons.wikimedia.org/wiki/File:Sass_Logo_Color.svg
+
+Direct raw SVG (open in browser to download):
+https://upload.wikimedia.org/wikipedia/commons/5/57/Sass_Logo_Color.svg
+
+Instructions:
+1. Open the 'Direct raw SVG' URL in your browser.
+2. Save the file as `public/logos/sass.svg` in the project root.
+3. Optionally run `npx svgo public/logos/sass.svg` to optimize.
+4. Commit the file.
+
+Note: I couldn't fetch this file automatically from the environment; please paste the SVG file into the path above or allow me to try again.
