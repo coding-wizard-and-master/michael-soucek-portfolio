@@ -45,7 +45,7 @@ const HeroSection: React.FC = () => {
       <div className="relative text-center px-5 sm:px-6 max-w-3xl mx-auto w-full">
 
         {/* Eyebrow */}
-        <p className="section-label mb-8 tracking-[0.22em]">Front-End Software Engineer</p>
+        <p className="section-label mb-8 tracking-[0.22em]">Software Engineer</p>
 
         {/* Name */}
         <h1 className="text-4xl sm:text-6xl md:text-8xl font-extrabold tracking-tight text-slate-900 leading-none mb-8 w-full overflow-hidden whitespace-nowrap">

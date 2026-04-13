@@ -46,6 +46,16 @@ const skillGroups = [
     accentColor: 'bg-blue-500',
     skills: ['WCAG 2.1', 'Semantic HTML', 'ARIA Patterns', 'Screen Reader Optimization'],
   },
+  {
+    label: 'Back-End & Databases',
+    accentColor: 'bg-blue-500',
+    skills: ['Node.js', 'Express.js', 'PostgreSQL', 'SQL', 'Postman'],
+  },
+  {
+    label: 'AI Tools',
+    accentColor: 'bg-blue-500',
+    skills: ['GitHub Copilot', 'Windsurf', 'ChatGPT'],
+  },
 ];
 
 const SkillsSection: React.FC = () => {
