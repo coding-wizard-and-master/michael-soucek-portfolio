@@ -1,6 +1,6 @@
-# Portfolio Clone
+# Portfolio
 
-This is a portfolio website clone built using Next.js, Tailwind CSS, and Vite. The project showcases a personal portfolio layout with sections for the homepage, about, projects, and contact information.
+This is a portfolio website built using Next.js, Tailwind CSS, and Vite. The project showcases a personal portfolio layout with sections for the homepage, about, projects, and contact information.
 
 ## Features
 
