@@ -44,7 +44,7 @@ export const projects: Project[] = [
     title: 'Health Hub – Service Creation',
     group: 'Core Enterprise Projects | CVS Health',
     status: 'Completed',
-    role: 'Software Development Engineer',
+    role: 'Software Engineer',
     timeline: 'Aug 2025 – Nov 2025',
     description:
       'Built the "new-service" area within Health Hub — an internal platform that allows CVS teams to architect and launch new healthcare service offerings. Engineered with a test-first approach using Vitest.',
@@ -79,7 +79,7 @@ export const projects: Project[] = [
   title: 'Pharmacy Appointment Scheduler',
     group: 'Core Enterprise Projects | CVS Health',
     status: 'Completed',
-    role: 'Software Development Engineer',
+    role: 'Software Engineer',
     timeline: 'Jan 2024 – Dec 2024',
     description:
       'Internal tool used by 9,000+ CVS pharmacy locations to configure and publish appointment time slots for vaccines and other services.',
@@ -97,7 +97,7 @@ export const projects: Project[] = [
     title: 'CVS.com | PDP Accessibility',
     group: 'Core Enterprise Projects | CVS Health',
     status: 'Completed',
-    role: 'Digital Development Engineer I',
+    role: 'Front-End Engineer',
     timeline: 'Jun 2023 – Jan 2024',
     description:
       'Drove the accessibility remediation initiative across CVS.com Product Detail Pages — bringing high-traffic product pages into full WCAG 2.1 compliance and establishing a11y standards adopted across the team.',

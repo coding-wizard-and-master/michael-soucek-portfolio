@@ -21,29 +21,26 @@ const experience: Company[] = [
     accentColor: 'bg-red-500',
     roles: [
       {
-        title: 'Software Development Engineer',
+        title: 'Software Engineer',
         period: 'Jun 2024 – Present',
-        location: 'Alpharetta, GA',
+        location: 'Remote',
         badge: 'Current',
         bullets: [
-          'Built the core scheduling logic for the Pharmacy Appointment Scheduler — overnight time-slots, edge-case modal flows, and high-volume state management in Angular.',
-          'Contributing to the customer-facing scheduling flows on CVS.com — integrating AEM content fragments into an Angular rendering pipeline serving millions of users nationwide.',
-          'Developed the Health Hub service-creation platform in React with a test-first approach using Vitest, achieving near-100% coverage on critical workflows.',
-          'Maintained DevSecOps pipeline: Snyk vulnerability scanning, Docker base image upgrades, CircleCI optimisation, and Harness deployment management.',
-          'Collaborated daily with product, UX, backend, and QA in an Agile/SAFe environment.',
+          'Engineered customer-facing scheduling flows on CVS.com serving millions of users — integrating AEM content fragments into an Angular rendering pipeline and reducing cumulative layout shift on high-traffic pharmacy pages.',
+          'Built core scheduling logic for the Pharmacy Appointment Scheduler — overnight time-slot configuration, edge-case modal flows, and high-volume state management in Angular, deployed across 9,000+ CVS locations.',
+          'Developed Health Hub service-creation platform in React with a test-first approach using Vitest — achieving near-100% coverage on all critical workflows and zero regressions at launch.',
+          'Maintained DevSecOps pipeline: Snyk vulnerability scanning, GitLeaks secret rotation, Docker base image upgrades, CircleCI optimisation, and Harness deployment management.',
         ],
         tech: ['Angular', 'React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vitest', 'Docker', 'CircleCI', 'Snyk', 'Harness', 'AEM'],
       },
       {
-        title: 'Digital Development Engineer I',
+        title: 'Front-End Engineer',
         period: 'Jun 2023 – Jun 2024',
-        location: 'Alpharetta, GA',
+        location: 'Remote',
         bullets: [
-          'Built e-commerce Product Detail Page (PDP) enhancements and developed the Intelligent Questionnaire Engine (IQE) — a condition-based multi-step intake flow — using React and Next.js.',
-          'Engineered complex API-driven form logic with reusable component architecture for multi-step, data-driven intake workflows.',
-          'Drove WCAG 2.1 compliance across PDP components — ARIA roles, semantic HTML, screen reader compatibility, and full keyboard navigation.',
-          "Established accessibility review criteria adopted as the squad's standard for ongoing development.",
-          'Collaborated cross-functionally with design, QA, and backend teams within an Agile framework.',
+          'Architected the Intelligent Questionnaire Engine (IQE) in React/Next.js — conditional branching via declarative rule config, dynamic form state managed entirely in React, and a decoupled question schema enabling new questionnaire types without code changes.',
+          'Engineered complex API-driven, multi-step form logic with reusable component architecture — scaling data-driven intake workflows across CVS.com without per-workflow code changes.',
+          "Led WCAG 2.1 accessibility remediation across CVS.com PDPs — auditing and fixing ARIA roles, semantic HTML, keyboard navigation, and colour contrast; acted as squad's designated a11y reviewer; established review criteria adopted as the team's ongoing standard.",
         ],
         tech: ['React', 'Next.js', 'TypeScript', 'WCAG 2.1', 'ARIA'],
       },
@@ -54,24 +51,14 @@ const experience: Company[] = [
     accentColor: 'bg-blue-500',
     roles: [
       {
-        title: 'Associate Systems Engineer — Internship',
-        period: 'Aug 2022 – Dec 2022',
-  location: '',
+        title: 'Software Engineer Intern',
+        period: 'May 2022 – Dec 2022',
+        location: 'Remote',
         bullets: [
-          "Built a client portal integrating external ITSM platforms with Insight's internal systems using React and RESTful APIs.",
-          'Designed reusable UI components for internal tooling and streamlined cross-platform workflows.',
+          'Built a client portal integrating external ITSM platforms with internal systems using React and RESTful APIs — designing reusable UI components that streamlined cross-platform workflows.',
+          'Developed internal device-management automation tooling across Jamf, Workspace ONE, and Microsoft Intune, managing large-scale deployments and authoring onboarding documentation.',
         ],
-        tech: ['React', 'HTML/CSS', 'REST APIs'],
-      },
-      {
-        title: 'Technical Support Engineer — Internship',
-        period: 'May 2022 – Aug 2022',
-  location: '',
-        bullets: [
-          'Developed an internal automation tool for corporate device management across Jamf, Workspace ONE, and Microsoft Intune.',
-          'Managed large-scale device deployments and authored onboarding documentation.',
-        ],
-        tech: ['Jamf', 'Workspace ONE', 'Microsoft Intune'],
+        tech: ['React', 'HTML/CSS', 'REST APIs', 'Jamf', 'Workspace ONE', 'Microsoft Intune'],
       },
     ],
   },
@@ -100,7 +87,7 @@ const ExperienceSection: React.FC = () => {
           <p className="section-label mb-3">Career</p>
           <h2 className="text-4xl font-extrabold tracking-tight text-slate-900">Experience</h2>
           <div className="accent-bar mx-auto mt-4" />
-          <p className="text-slate-400 mt-4 text-sm">Three years of enterprise front-end engineering in healthcare technology.</p>
+          <p className="text-slate-400 mt-4 text-sm">3.5 years of enterprise front-end engineering in healthcare technology.</p>
         </div>
 
         <div className="space-y-6">

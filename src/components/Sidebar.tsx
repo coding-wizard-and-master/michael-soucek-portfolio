@@ -9,7 +9,7 @@ const Sidebar: React.FC = () => {
           <img src="/avatar.svg" alt="avatar" className="header-avatar object-contain shadow-sm rounded-md" style={{ maxWidth: '40px' }} />
         </div>
         <h2 className="text-2xl font-semibold">Michael Soucek</h2>
-        <p className="text-sm text-gray-600 mt-1">Front-End Software Engineer</p>
+        <p className="text-sm text-gray-600 mt-1">Software Engineer</p>
         <div className="mt-6 w-full">
           <nav className="flex flex-col space-y-3 text-sm">
             <Link to="/" className="text-gray-800 hover:text-blue-600">Home</Link>

@@ -19,15 +19,15 @@ const HeroSection: React.FC = () => {
 
   const bio = (() => {
     if (country === 'DK' || country === 'SE') {
-      return 'Three years of enterprise front-end engineering at CVS Health. Dual EU/US citizen with Danish heritage — looking to relocate to Denmark. EU passport, no sponsorship needed.';
+      return '3.5 years of enterprise front-end engineering at CVS Health. Dual EU/US citizen with Danish heritage — looking to relocate to Denmark. EU passport, no sponsorship needed.';
     }
     if (country === 'CH' || country === 'DE' || country === 'FR' || country === 'LI' || country === 'AT' || country === 'IT') {
-      return 'Three years of enterprise front-end engineering at CVS Health. Dual EU/US citizen seeking relocation to Switzerland — EU passport holder, full work authorisation.';
+      return '3.5 years of enterprise front-end engineering at CVS Health. Dual EU/US citizen seeking relocation to Switzerland — EU passport holder, full work authorisation.';
     }
     if (euCountries.includes(country)) {
-      return 'Three years of enterprise front-end engineering at CVS Health. Dual EU/US citizen open to relocation across Europe. EU passport, no sponsorship needed.';
+      return '3.5 years of enterprise front-end engineering at CVS Health. Dual EU/US citizen open to relocation across Europe. EU passport, no sponsorship needed.';
     }
-    return 'Three years of enterprise front-end engineering at CVS Health across Angular, React, and Next.js. ASU B.S. Graphic Information Technology, Summa Cum Laude.';
+    return '3.5 years of enterprise front-end engineering at CVS Health across Angular, React, and Next.js. ASU B.S. Graphic Information Technology, Summa Cum Laude.';
   })();
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center bg-white overflow-hidden">

@@ -8,7 +8,7 @@ const euCountries = [
 ];
 
 const stats = [
-  { value: '3', label: 'Years at CVS Health' },
+  { value: '3.5', label: 'Years at CVS Health' },
   { value: '39', label: 'Countries Visited' },
   { value: '4.0', label: 'GPA — Summa Cum Laude' },
   { value: '2', label: 'Citizenships' },
@@ -39,7 +39,7 @@ const About: React.FC = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-3 break-words">Michael Dean Soucek</h1>
             <div className="accent-bar mx-auto mb-5" />
             <p className="text-slate-500 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-              Front-end engineer with three years of enterprise experience at CVS Health. I build precise, accessible, and maintainable systems — clarity and structure over decoration.
+              Software engineer with 3.5 years of enterprise experience at CVS Health. I build precise, accessible, and maintainable systems — clarity and structure over decoration.
             </p>
           </div>
         </div>
