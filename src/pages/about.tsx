@@ -61,13 +61,23 @@ const About: React.FC = () => {
             <div>
               <p className="text-xs uppercase tracking-[0.18em] text-gray-400 font-semibold mb-3">Background</p>
               <p className="text-gray-700 leading-relaxed">
-                I hold dual American–Hungarian citizenship with an EU passport — able to work anywhere in the European Union without visa sponsorship. I graduated Summa Cum Laude from Arizona State University with a {isEurope ? 'B.Sc.' : 'B.S.'} in Graphic Information Technology, which gave me an unusual foundation: both technical architecture and visual communication.
+                I am a frontend-focused software engineer with 3.5+ years of enterprise experience building
+                production web applications in healthcare. At CVS Health, I have shipped features used by millions
+                of customers and internal pharmacy teams — across Angular, React, Next.js, TypeScript, REST APIs,
+                and accessibility.
+              </p>
+              <p className="text-gray-700 leading-relaxed mt-4">
+                I am a Hungarian / EU citizen with full right to work across the EU/EEA and no visa sponsorship
+                required. I am open to remote, hybrid, or on-site roles in Europe and the US.
               </p>
             </div>
             <div>
-              <p className="text-xs uppercase tracking-[0.18em] text-gray-400 font-semibold mb-3">Philosophy</p>
+              <p className="text-xs uppercase tracking-[0.18em] text-gray-400 font-semibold mb-3">Approach</p>
               <p className="text-gray-700 leading-relaxed">
-                Clarity over cleverness. Consistency over convenience. I approach every system as something that will be maintained long after I've written it — so naming, structure, and accessibility are never afterthoughts. Travelling to 39 countries has shaped how I think about building for diverse, global audiences.
+                I care about clean UI implementation, reusable component architecture, API integration, and
+                practical engineering that actually ships. I am especially interested in roles where I can work on
+                meaningful products, improve user experience, and grow deeper across frontend architecture and
+                full-stack development.
               </p>
             </div>
           </div>
