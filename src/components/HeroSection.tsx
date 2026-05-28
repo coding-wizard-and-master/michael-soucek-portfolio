@@ -84,7 +84,7 @@ const HeroSection: React.FC = () => {
 
           {/* GitHub */}
           <a
-            href="https://github.com/coding-wizard-and-master"
+            href="https://github.com/michael-soucek"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm font-semibold border border-slate-200 text-slate-600 hover:text-slate-900 hover:border-slate-400 px-4 py-3 rounded transition-colors"

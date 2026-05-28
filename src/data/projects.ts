@@ -169,7 +169,7 @@ export const personalProjects: PersonalProject[] = [
     description: 'TODO: Add a one-sentence description of what this project does.',
     reason: 'TODO: Add a one-sentence explanation of why you built it.',
     tech: 'React, TypeScript',
-    github: 'https://github.com/coding-wizard-and-master',
+    github: 'https://github.com/michael-soucek',
   },
   {
     id: 'personal-placeholder-2',
@@ -177,7 +177,7 @@ export const personalProjects: PersonalProject[] = [
     description: 'TODO: Add a one-sentence description of what this project does.',
     reason: 'TODO: Add a one-sentence explanation of why you built it.',
     tech: 'Next.js, TypeScript',
-    github: 'https://github.com/coding-wizard-and-master',
+    github: 'https://github.com/michael-soucek',
   },
 ];
 

@@ -57,7 +57,7 @@ const ContactSection: React.FC = () => {
 
         <div className="mt-8 flex items-center justify-center gap-6">
           <a
-            href="https://github.com/coding-wizard-and-master"
+            href="https://github.com/michael-soucek"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-slate-900 transition-colors"

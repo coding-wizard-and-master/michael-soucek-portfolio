@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
             </a>
 
             <a
-              href="https://github.com/coding-wizard-and-master"
+              href="https://github.com/michael-soucek"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub profile"
