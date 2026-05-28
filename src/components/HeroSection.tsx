@@ -88,7 +88,7 @@ const HeroSection: React.FC = () => {
 
           {/* GitHub */}
           <a
-            href="https://github.com/coding-wizard-and-master"
+            href="https://github.com/michael-soucek"
             aria-label="GitHub"
             target="_blank"
             rel="noopener noreferrer"
