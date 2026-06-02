@@ -1,4 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+
+const euCountries = [
+  'AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GR', 'HR',
+  'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'MT', 'NL', 'PL', 'PT', 'RO', 'SE', 'SI',
+  'SK', 'NO', 'CH', 'IS', 'LI', 'GB',
+];
+
+const euWorkAuthorizationText =
+  'Hungarian / EU citizen — full right to work across the EU/EEA. EU citizen eligible for Swiss work authorization via the EU/EFTA route. No employer visa sponsorship required.';
+
+const usWorkAuthorizationText =
+  'American citizen — full right to work across the United States. No employer visa sponsorship required.';
 
 const facts = [
   {
@@ -30,8 +42,7 @@ const facts = [
       </svg>
     ),
     label: 'Work Authorization',
-    value:
-      'Hungarian / EU citizen — full right to work across the EU/EEA. EU citizen eligible for Swiss work authorization via the EU/EFTA route. No employer visa sponsorship required.',
+    value: euWorkAuthorizationText,
   },
   {
     icon: (
@@ -67,6 +78,19 @@ const facts = [
 ];
 
 const AtAGlanceSection: React.FC = () => {
+  const [isEurope, setIsEurope] = useState(true);
+
+  useEffect(() => {
+    fetch('https://ipapi.co/json/')
+      .then((r) => r.json())
+      .then((data) => {
+        if (typeof data?.country_code === 'string') {
+          setIsEurope(euCountries.includes(data.country_code));
+        }
+      })
+      .catch(() => {});
+  }, []);
+
   return (
     <section id="about" className="py-20 bg-white">
       <div className="max-w-5xl mx-auto px-6">
@@ -77,7 +101,13 @@ const AtAGlanceSection: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {facts.map((fact) => (
+          {facts.map((fact) => {
+            const displayValue =
+              fact.label === 'Work Authorization'
+                ? (isEurope ? euWorkAuthorizationText : usWorkAuthorizationText)
+                : fact.value;
+
+            return (
             <div
               key={fact.label}
               className="bg-white border border-gray-200 rounded-lg px-5 py-5 flex items-start gap-4"
@@ -87,10 +117,11 @@ const AtAGlanceSection: React.FC = () => {
                 <p className="text-xs uppercase tracking-widest text-gray-400 font-semibold mb-1">
                   {fact.label}
                 </p>
-                <p className="text-sm text-gray-800 leading-relaxed">{fact.value}</p>
+                <p className="text-sm text-gray-800 leading-relaxed">{displayValue}</p>
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

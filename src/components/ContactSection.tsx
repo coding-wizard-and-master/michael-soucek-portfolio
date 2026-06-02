@@ -17,8 +17,8 @@ const ContactSection: React.FC = () => {
   }, []);
 
   const blurb = isEurope
-    ? 'EU citizen (Hungarian passport) — full right to work across the EU/EEA and Switzerland via the EU/EFTA route. No visa sponsorship required. Open to software engineering roles in Europe — remote, hybrid, or on-site.'
-    : 'Open to software engineering roles in the US — remote, hybrid, or on-site.';
+    ? 'Hungarian / EU citizen — full right to work across the EU/EEA. EU citizen eligible for Swiss work authorization via the EU/EFTA route. No employer visa sponsorship required.'
+    : 'American citizen — full right to work across the United States. No employer visa sponsorship required.';
 
   return (
     <section id="contact" className="py-20 bg-[#f8f7f4]">
@@ -40,8 +40,6 @@ const ContactSection: React.FC = () => {
             </svg>
             michaelsoucek73@gmail.com
           </a>
-
-          {/* TODO: Add resume.pdf to /public/ before deploying */}
           <a
             href="/resume.pdf"
             target="_blank"
